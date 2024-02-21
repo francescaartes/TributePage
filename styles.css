@@ -1,0 +1,34 @@
+html {
+    background-color: #ece8e1;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding: 3rem;
+    color: #ff4655;
+}
+
+#tribute-intro {
+    width: 100%;
+    height: 50rem;
+    background-image: url(https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/271651901_106003971978495_9149785314236145268_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=783fdb&_nc_ohc=wcTg6LmmhskAX_RmaFG&_nc_ht=scontent.fpag2-1.fna&oh=00_AfCFkyOiw8rL3jKN5LCt8SYO_6Eo6OfauzgvEUto9iBSgw&oe=65D9B50E);
+    
+}
+
+#img-caption {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: ;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 40rem;
+    margin: 0 auto;
+}
