@@ -50,7 +50,7 @@ body {
     flex-wrap: wrap;
     flex-direction: row-reverse;
     padding: 0 10rem;
-    background-image: url(https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/271651901_106003971978495_9149785314236145268_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=783fdb&_nc_ohc=wcTg6LmmhskAX_RmaFG&_nc_ht=scontent.fpag2-1.fna&oh=00_AfCFkyOiw8rL3jKN5LCt8SYO_6Eo6OfauzgvEUto9iBSgw&oe=65D9B50E);
+    background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/36106c84-e733-4d37-830c-f047cc9b95c7-profile_banner-480.jpeg);
 }
 
 .second-container {
@@ -68,19 +68,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-@media (max-width: 768px) {
-    .first-container,
-    .second-container {
-      width: 100%;
-    }
-    .second-container {
-        padding: 5rem 0 5rem 5rem;
-    }
-    .third-container {
-        margin-top: 0;
-    }
-  }
 
 .role-text, .description {
     font-family: var(--normal-font);
@@ -175,3 +162,30 @@ a:hover {
     font-family: var(--bold-font);
     color: var(--red-color);
 }
+
+@media (max-width: 768px) {
+    .first-container,
+    .second-container {
+      width: 100%;
+    }
+    .second-container {
+        padding: 5rem 0 5rem 5rem;
+    }
+    .third-container {
+        margin-top: 0;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .skill-Q, .skill-E, .skill-C, .skill-X {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .third-container {
+        margin-top: 0;
+        padding: 1rem 1rem;
+    }
+  }
